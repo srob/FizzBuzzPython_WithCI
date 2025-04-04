@@ -45,7 +45,7 @@ env.bak/
 venv.bak/
 
 # VS Code
-.vscode/
+.vscode/*
 !.vscode/settings.json
 
 # PyCharm
