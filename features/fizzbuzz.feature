@@ -11,3 +11,7 @@ Feature: FizzBuzz output
       | 5      | Buzz      |
       | 15     | FizzBuzz  |
       | 2      | 2         |
+      | 151    | 151       |
+      | 1500   | FizzBuzz  |
+      | 1501   | 1501      |
+            
