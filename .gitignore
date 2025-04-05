@@ -47,6 +47,7 @@ venv.bak/
 # VS Code
 .vscode/*
 !.vscode/settings.json
+!.vscode/tasks.json
 
 # PyCharm
 .idea/
