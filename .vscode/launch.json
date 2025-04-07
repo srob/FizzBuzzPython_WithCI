@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: Unittest",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder}/tests", // adjust path to your unit test directory
+        "console": "integratedTerminal",
+        "justMyCode": true,
+        "purpose": ["debug-test"]
+      },
+      {
+        "name": "Python: Behave",
+        "type": "debugpy",
+        "request": "launch",
+        "module": "behave",
+        "args": [
+          "${workspaceFolder}/features" // adjust if your feature files are elsewhere
+        ],
+        "console": "integratedTerminal",
+        "justMyCode": false
+      }
+    ]
+  }
